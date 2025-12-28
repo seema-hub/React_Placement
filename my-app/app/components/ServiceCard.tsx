@@ -20,8 +20,8 @@ const ServiceCard = ({
 }: ServiceCardProps) => {
   return (
     <div className="max-w-sm rounded-[32px] bg-white shadow-lg overflow-hidden">
-      <div className="bg-[#00cab1] p-6 flex justify-center">
-        <img src={image} alt={title} className="max-h-52 object-contain" />
+      <div className="bg-[#fff] p-4 flex justify-center">
+        <img src={image} alt={title} className="object-contain" />
       </div>
 
       <div className="p-8 text-center">
