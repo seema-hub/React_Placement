@@ -5,6 +5,7 @@ import { Geist, Geist_Mono,Inter ,Poppins} from "next/font/google";
 import "./globals.css";
 import Header from "./components/header"
 import Footer from "./components/Footer";
+import Chatbot from "./components/Chatbot"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const poppins = Poppins({ subsets: ["latin"], weight: ["600"], variable: "--font-poppins" });
@@ -34,9 +35,11 @@ export default function RootLayout({
        
 <Header />
 
+
 {/* ✅ THIS IS REQUIRED for navigation to work */}
         <main>
           {children}
+          <Chatbot/>
            <Footer />
         </main>
         
